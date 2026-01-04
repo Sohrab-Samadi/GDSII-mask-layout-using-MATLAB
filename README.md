@@ -146,15 +146,16 @@ The corresponding **right-hand side structures are generated automatically by mi
 
 
 
-<h3>B) Two Geometry Loops</h3>
+<h3>B) Two Geometry Loops - with and without FBMS</h3>
 
 Two separate loops are used to correctly handle different circuit topologies:
 
-..........**Circuits 1–5** share one geometry block
+..........**Circuits 1–5** share one geometry block, and have fbms elements around their waveguides.
 
-..........**Circuits 6–9** share a second geometry block (based on Circuit 6)
+..........**Circuits 6–9** share a second geometry block (based on Circuit 6), and don't have fbms elements around their waveguides.
 
-This separation is intentional and ensures correct **bend and arc ordering**, preventing unwanted or duplicated arcs.
+The FBMS elements are useful for fabricating circuits that span **multiple write fields**, as they help **mitigate stitching errors**. FBMS geometric features are included for all circuits; however, for circuits **6–9**, the FBMS width is set to zero in params_all_circuits.m, so these features are not generated. This behavior can be modified by assigning a non-zero width value if FBMS exposure is desired for those circuits.
+
 
 <h3>C) Index-Safe Element Creation</h3>
 
