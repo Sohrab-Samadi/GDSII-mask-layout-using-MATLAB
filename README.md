@@ -139,7 +139,14 @@ This is the **main layout generation script**.
 
 <h2>Key Features</h1>
 
-<h3>A) Two Geometry Loops</h3>
+<h3>A) Left-Side Definition with Automatic Mirroring</h3>
+Only the **left-hand side of the chip is explicitly defined** in the layout code. All waveguides, tapers, bends, and grating couplers are first constructed for the left side.
+
+The corresponding **right-hand side structures are generated automatically by mirroring** the left-side geometry using dedicated coordinate-mirroring functions. the **mirror_arc_coords** function is for mirroring the arcs, and **mirror_coords** function is for mirroring polygons.
+
+
+
+<h3>B) Two Geometry Loops</h3>
 
 Two separate loops are used to correctly handle different circuit topologies:
 
@@ -149,7 +156,7 @@ Two separate loops are used to correctly handle different circuit topologies:
 
 This separation is intentional and ensures correct **bend and arc ordering**, preventing unwanted or duplicated arcs.
 
-<h3>B) Index-Safe Element Creation</h3>
+<h3>C) Index-Safe Element Creation</h3>
 
 All layout elements are appended using:
 ```
@@ -166,7 +173,7 @@ This avoids:
 
 ..........spurious geometry artifacts (e.g. unintended arcs).
 
-<h3>C) Global Element Accumulation</h3>
+<h3>D) Global Element Accumulation</h3>
 
 Each circuit’s geometry is added to a global list b.
 After all circuits are generated:
