@@ -109,9 +109,10 @@ This allows for:
 
 This file defines all **circuit-specific parameters**.
 
-Each parameter is suffixed with _n, where n **corresponds to the circuit numbe**r shown in **Figure 3**.
+Each parameter is suffixed with _n, where n **corresponds to the circuit numbe**r shown in **Figure 4**.
 
-<img width="2578" height="1344" alt="Screenshot (543)" src="https://github.com/user-attachments/assets/5920ec95-292b-4063-adc1-bace52d2e0f1" />
+<img width="1750" height="889" alt="Screenshot (549)" src="https://github.com/user-attachments/assets/2d2bc839-cd14-45aa-9072-709f0672b345" />
+
 
 
 Examples:
