@@ -129,13 +129,13 @@ For example, **Circuit 6** in Figure 4 uses:
 ```
 parameters throughout the code.
 
-<h2>Geometry Parameterization (Figure 4) </h2>
+<h2>Geometry Parameterization (Figure 5) </h2>
 
-**Figure 4** shows a single circuit annotated with the variables used in the code. Each labeled section corresponds directly to a parameter in params_all_circuits.m.
+**Figure 5** shows a single circuit annotated with the variables used in the code. Each labeled section corresponds directly to a parameter in params_all_circuits.m.
 
-<img width="1452" height="1082" alt="Screenshot (545)" src="https://github.com/user-attachments/assets/553649f3-00ef-4d39-aea4-21c2a60881c1" />
+<img width="1367" height="1022" alt="Screenshot (550)" src="https://github.com/user-attachments/assets/6d16214e-8990-49cf-b88b-74b42d152e59" />
 
-Changing these parameters in params_all_circuits.m directly modifies the physical layout shown in Figure 3.
+Changing these parameters in params_all_circuits.m directly modifies the physical layout shown in Figure 4.
 
 <h1>4) generate_layout_from_workspace.m</h1>
 
