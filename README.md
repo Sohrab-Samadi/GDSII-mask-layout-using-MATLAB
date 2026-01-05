@@ -139,7 +139,7 @@ Changing these parameters in params_all_circuits.m directly modifies the physica
 
 <h1>4) generate_layout_from_workspace.m</h1>
 
-This is the **main layout generation script**.
+This is the **main layout generation script**, which will create the complete layout of the chip, as depicted in **Figures 3 and 4**.
 
 <h2>Key Features</h1>
 
