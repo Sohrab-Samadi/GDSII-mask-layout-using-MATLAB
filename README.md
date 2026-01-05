@@ -6,7 +6,7 @@ Documentation for the Raith toolbox is available at:
 https://raith-gdsii.readthedocs.io/en/latest/
 (Thanks to Aaron Hryciw for creating this toolbox) (https://github.com/ahryciw).
 
-In order to rung the codes, you need to place the four class definitions found in the src directory (Raith_element.m, Raith_structure.m, Raith_library.m, and Raith_positionlist.m) into a folder on your MATLAB path.
+In order to run the codes, you need to place the four class definitions found in the src directory (Raith_element.m, Raith_structure.m, Raith_library.m, and Raith_positionlist.m) into a folder on your MATLAB path.
 
 The layouts produced by this code are written for **fabrication processes compatible with positive resist**. As a result, the geometry defined in the GDSII files represents **etch windows**, not the silicon structures themselves.
 
