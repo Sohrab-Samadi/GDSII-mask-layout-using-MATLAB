@@ -76,13 +76,14 @@ the code achieves:
 
 <h2>D) Design Goal: Compact Cut-Back Test Structures</h2>
 
-The generated layouts are optimized for the **cut-back method**. Each circuit:
+The generated layouts are optimized for the **cut-back method**, as shown in Figure 3. Each circuit:
 
 ..........contains the **same number of bends**,
 
 ..........follows the **same general topology**, and
 
 ..........differs only in **waveguide path length**.
+<img width="2004" height="1052" alt="Screenshot (548)" src="https://github.com/user-attachments/assets/f3e31d9c-cf69-4851-ae93-474295d2c65f" />
 
 This allows:
 
@@ -90,7 +91,7 @@ This allows:
 
 ..........assessment of **grating coupler efficiency**, and
 
-compact placement of many test structures within a limited chip area.
+..........compact placement of many test structures within a limited chip area.
 
 
 
