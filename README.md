@@ -123,7 +123,7 @@ bend_6
 ```
 
 Circuit numbers in the layout (1–9) map **directly** to these parameter suffixes.
-For example, **Circuit** 6 in Figure 4 uses:
+For example, **Circuit 6** in Figure 4 uses:
 ```
 *_6
 ```
