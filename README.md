@@ -1,7 +1,7 @@
 <h1>1) Overview</h1>
 
 
-This repository is dedicated to generating **GDSII layouts layouts of compact, multi-circuit photonic devices** using the **Raith_GDSII MATLAB Toolbox**, with an emphasis on the **fixed-beam moving-stage (FBMS)** exposure mode.
+This repository is dedicated to generating **GDSII layouts of compact, multi-circuit photonic devices** using the **Raith_GDSII MATLAB Toolbox**, with an emphasis on the **fixed-beam moving-stage (FBMS)** exposure mode.
 Documentation for the Raith toolbox is available at:
 https://raith-gdsii.readthedocs.io/en/latest/
 (Thanks to Aaron Hryciw for creating this toolbox) (https://github.com/ahryciw).
