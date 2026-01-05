@@ -147,7 +147,7 @@ This is the **main layout generation script**, which will create the complete la
 
 Only the **left-hand side of the chip is explicitly defined** in the layout code. All waveguides, tapers, bends, and grating couplers are first constructed for the left side.
 
-The corresponding **right-hand side structures are generated automatically by mirroring** the left-side geometry using dedicated coordinate-mirroring functions. the **mirror_arc_coords** function is for mirroring the arcs, and **mirror_coords** function is for mirroring polygons.
+The corresponding **right-hand side structures are generated automatically by mirroring** the left-side geometry using dedicated coordinate-mirroring functions. the **mirror_arc_coords** function is for mirroring the arcs, and **mirror_coords** function is for mirroring the polygons.
 
 
 
