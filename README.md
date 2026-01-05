@@ -85,7 +85,7 @@ The generated layouts are optimized for the **cut-back method**, as shown in Fig
 ..........differs only in **waveguide path length**.
 <img width="2004" height="1052" alt="Screenshot (548)" src="https://github.com/user-attachments/assets/f3e31d9c-cf69-4851-ae93-474295d2c65f" />
 
-This allows:
+This allows for:
 
 ..........extraction of **waveguide propagation loss** from transmission measurements,
 
